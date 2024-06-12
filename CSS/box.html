@@ -17,9 +17,12 @@
                 border: 5px solid black;
             }
             .box1 {
+                /* Default setting, border cannot exceed designated size
+                   It makes the content smaller if the border gets larger */
                 box-sizing: border-box;
             }
             .box3 {
+                /* Content size is fixed, border is created outside of the content */
                 box-sizing: content-box;
             }
         </style>
