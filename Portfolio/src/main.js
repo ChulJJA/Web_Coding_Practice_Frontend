@@ -1,3 +1,5 @@
+'use strict';
+
 const header = document.querySelector('.header');
 const headerHeight = header.getBoundingClientRect().height;
 document.addEventListener('scroll', () => {
@@ -30,7 +32,6 @@ const navbarToggle = document.querySelector('.header__toggle');
 navbarToggle.addEventListener('click', ()=> {
    navbarMenu.classList.toggle('open'); 
 });
-
 navbarMenu.addEventListener('click', ()=> {
     navbarMenu.classList.remove('open'); 
  });

@@ -25,7 +25,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Javascript -->
-    <script src="src/main.js" defer></script>
+    <script type="module" src="src/main.js" defer></script>
+    <script type="module" src="src/projects.js" defer></script>
 </head>
 
 <body>
@@ -197,20 +198,20 @@
                 <p class="description">Projects</p>
                 <ul class="categories">
                     <li>
-                        <button class="category category--selected">All <span class="category__count">6</span></button>
+                        <button class="category category--selected" data-category="all">All <span class="category__count">6</span></button>
                     </li>
                     <li>
-                        <button class="category">Front-end <span class="category__count">3</span></button>
+                        <button class="category" data-category="front-end">Front-end <span class="category__count">3</span></button>
                     </li>
                     <li>
-                        <button class="category">Back-end <span class="category__count">2</span></button>
+                        <button class="category" data-category="back-end">Back-end <span class="category__count">2</span></button>
                     </li>
                     <li>
-                        <button class="category">Mobile <span class="category__count">1</span></button>
+                        <button class="category" data-category="mobile">Mobile <span class="category__count">1</span></button>
                     </li>
                 </ul>
                 <ul class="projects">
-                    <li class="project">
+                    <li class="project" data-category="front-end">
                         <a href="#" target="_blank">
                             <img src="images/chul_good.jpg" alt="" class="project_img">
                             <div class="project__metadata">
@@ -219,7 +220,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="project">
+                    <li class="project" data-category="front-end">
                         <a href="#" target="_blank">
                             <img src="images/chul_good.jpg" alt="" class="project_img">
                             <div class="project__metadata">
@@ -228,7 +229,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="project">
+                    <li class="project" data-category="back-end">
                         <a href="#" target="_blank">
                             <img src="images/chul_good.jpg" alt="project1" class="project_img">
                             <div class="project__metadata">
@@ -237,7 +238,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="project">
+                    <li class="project" data-category="mobile">
                         <a href="#" target="_blank">
                             <img src="images/chul_good.jpg" alt="" class="project_img" class="projcet__metadata">
                             <div class="project__metadata">
@@ -246,7 +247,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="project">
+                    <li class="project" data-category="front-end">
                         <a href="#" target="_blank">
                             <img src="images/chul_good.jpg" alt="" class="project_img" class="projcet__metadata">
                             <div class="project__metadata">
@@ -255,7 +256,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="project">
+                    <li class="project" data-category="back-end">
                         <a href="#" target="_blank">
                             <img src="images/chul_good.jpg" alt="" class="project_img">
                             <div class="project__metadata">
