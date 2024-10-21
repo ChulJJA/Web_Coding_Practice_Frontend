@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <title>Chul&#39;s Portfolio</title>
+    <meta name="description" content="Portfolio for software engineer Chul">
+    <meta name="author" content="Chul">
+    <link rel="shortcut icon" href="images/cj_favicon.ico" type="image/x-icon">
+    <!-- Open Graph Data -->
+    <meta property="og:title" content="Chul's Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.chulseunglee.com/Web_Coding_Practice_Frontend/">
+    <meta property="og:image" content="https://www.chulseunglee.com/Web_Coding_Practice_Frontend/og.webp">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a26a5e9202.js" crossorigin="anonymous"></script>
+    <!-- Typeit -->
+    <script src="https://unpkg.com/typeit@8.8.5/dist/index.umd.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Javascript -->
+    <script type="module" src="src/main.js" defer></script>
+    <script type="module" src="src/projects.js" defer></script>
+    <script type="module" src="src/active_menu.js" defer></script>
+    <script type="module" src="src/type.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo__img" src="images/profile_circled.ico" alt="logo">
+            <h1 class="header__logo__title"><a href="#">Chul</a></h1>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li><a class="header__menu__item active" href="#home">Home</a></li>
+                <li><a class="header__menu__item" href="#about">About</a></li>
+                <li><a class="header__menu__item" href="#skills">Skills</a></li>
+                <li><a class="header__menu__item" href="#projects">Projects</a></li>
+                <li><a class="header__menu__item" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="header__toggle" aria-label="navigation menu toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Home -->
+        <section id="home" class="section">
+            <div class="home__container">
+                <img class="home__avatar" src="images/cj_back.ico" alt="Chul's Profile">
+                <h2 class="home__title">Hello <br> I&#39;m
+                    <strong class="home__title--strong">Software Engieer</strong>, Chul
+                </h2>
+                <p class="home__description">A software engineer currently residing in New Jersey.</p>
+                <a class="home__contact" href="#contact">Contact Me</a>
+            </div>
+            <div class="home__divider">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about" class="section  max-container">
+            <h2 class="title">About me</h2>
+            <p class="description">Hi.
+                I'm a senior at Rutgers - New Brunswick, The State University of New Jersey majoring in Computer
+                Science. With a passion for technology, I have great skills in software development, data structures and
+                algorithms. During my academic journey, I have engaged in various projects and internships that allowed
+                me to apply my knowledge in real-world settings.
+
+                Currently looking for an Internship or entry-level software engineer position.
+            </p>
+            <ul class="majors">
+                <li class="major">
+                    <i class="fa-brands fa-html5 major__icon"></i>
+                    <p class="major__title">Front-end</p>
+                    <p>HTML, CSS, JavaScript, jQuery</p>
+                </li>
+                <li class="major">
+                    <i class="fa-solid fa-mobile major__icon"></i>
+                    <p class="major__title"> Mobile</p>
+                    <p>Android, React Native, Java</p>
+                </li>
+                <li class="major">
+                    <i class="fa-solid fa-server major__icon"></i>
+                    <p class="major__title">Backend</p>
+                    <p>JavaScript, Node.js, Rest APIs, MySQL</p>
+                </li>
+                <li class="major">
+                    <i class="fa-solid fa-gamepad major__icon"></i>
+                    <p class="major__title">Game</p>
+                    <p>C, C++, FMOD, ImGUI, OpenGL</p>
+                </li>
+            </ul>
+            <ul class="jobs">
+                <li class="job">
+                    <img src="images/a_round_logo.png" class="job__logo" alt="a_round_logo">
+                    <div>
+                        <p class="job__name">Software Engineer Intern</p>
+                        <p class="job__period">July 2023 - December 2023</p>
+                    </div>
+                </li>
+                <li class="job">
+                    <img src="images/digipen_logo.png" class="job__logo" alt="digipen_logo">
+                    <div>
+                        <p class="job__name">CS Teaching Assistance</p>
+                        <p class="job__period">March 2022 - August 2022</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- Skills -->
+        <section id="skills" class="section">
+            <div class="max-container">
+                <h2 class="title">Skills</h2>
+                <p class="description">Skills & Attributes</p>
+                <p>Below chart shows my confidency of the programming languages and useful things <br> 
+                    that I have used in my work experiences, projects and academic assignments.</p>
+                <div class="skills">
+                    <section class="skills__coding">
+                        <h3 class="skills__title">Coding Skills</h3>
+                        <ul>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>HTML</span><span>95%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 95%"></div>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>CSS</span><span>85%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 85%"></div>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>JavaScript</span><span>80%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 80%"></div>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>C++</span><span>95%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 95%"></div>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>C</span><span>95%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 95%"></div>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>Java</span><span>70%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 70%"></div>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>Python</span><span>60%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 60%"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="skills_tools">
+                        <h3 class="skills__title">Frameworks</h3>
+                        <ul>
+                            <li></li>
+                            <li>jQuery</li>
+                            <li>React Native</li>
+                            <li>React</li>
+                            <li>STL</li>
+                            <li>Squarespace</li>
+                            <li>FMOD</li>
+                        </ul>
+                    </section>
+                    <section class="skills__etc">
+                        <h3 class="skills__title">Tools</h3>
+                        <ul>
+                            <li>Github</li>
+                            <li>Visual Studio</li>
+                            <li>Visual Studio Code</li>
+                            <li>Copilot</li>
+                            <li>Firebase</li>
+                            <li>Expo</li>
+                            <li>Android Studio</li>
+                            <li>Figma</li>
+                            <li>Google</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="skills__divider">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </section>
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <div class="max-container">
+                <h2 class="title">Projects</h2>
+                <p class="description">Solo/Team Projects</p>
+                <ul class="categories">
+                    <li>
+                        <button class="category category--selected" data-category="all">All <span class="category__count">7</span></button>
+                    </li>
+                    <li>
+                        <button class="category" data-category="front-end">Front-end <span class="category__count">1</span></button>
+                    </li>
+                    <li>
+                        <button class="category" data-category="game">Game <span class="category__count">4</span></button>
+                    </li>
+                    <li>
+                        <button class="category" data-category="academic">Academic <span class="category__count">3</span></button>
+                    </li>
+                </ul>
+                <ul class="projects">
+                    <li class="project" data-category="front-end">
+                        <a href="https://www.chulseunglee.com/" target="_blank">
+                            <img src="images/profile.jpg" alt="" class="project_img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">Portfolio Webpage</h3>
+                                <p>This is my portfolio project completely made by myself.
+                                   It is programmed by HTML/CSS and Javascript/jQuery. 
+                                   It shows all my journey to become a software engineer.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-category="academic">
+                        <a href="https://github.com/ChulJJA/AI_Project" target="_blank">
+                            <img src="images/AI.jpeg" alt="" class="project_img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">AI: Face/Digit Classification</h3>
+                                <p>This project is implemented by python and MNIST dataset. It 
+                                    recognizes digit and face using various algorithms, including 
+                                    Perceptron and Neural Network classifiers. The project 
+                                    utilizes training data to classify digit images from the 
+                                    MNIST dataset and face images.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-category="academic">
+                        <a href="https://github.com/ChulJJA/DNS-System" target="_blank">
+                            <img src="images/DNS.png" alt="project1" class="project_img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">DNS system</h3>
+                                <p>It is a simple protocol mimicking the Domain Name System (DNS) by python.
+                                     Built a set of DNS resolvers with private databases and a 
+                                     client program that resolves queries against this (distributed and
+                                      hierarchical) database. </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-category="game">
+                        <a href="https://github.com/ChulJJA/Body_Check" target="_blank">
+                            <img src="images/body_check.png" alt="" class="project_img" class="projcet__metadata">
+                            <div class="project__metadata">
+                                <h3 class="project__title">Body Check</h3>
+                                <p>Body Check is a top down 2D multiplayer combat game made by C++ custom engine. 
+                                    Multiple players play as penguins in a ice rink arena. 
+                                    Player must gain speed and run into opponents to defeat each other. 
+                                    Last player standing wins the game.
+                                    </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-category="game">
+                        <a href="https://github.com/ChulJJA/Tower_Craft" target="_blank">
+                            <img src="images/tower_craft.png" alt="" class="project_img" class="projcet__metadata">
+                            <div class="project__metadata">
+                                <h3 class="project__title">Tower Craft</h3>
+                                <p>Tower Craft is a grid based 2D tower defense game made by C++ framework engine. 
+                                    The user have to protect the incoming enemies by installing various towers. </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-category="game">
+                        <a href="https://github.com/ChulJJA/Shooting_Craft" target="_blank">
+                            <img src="images/shooting_craft.jpg" alt="" class="project_img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">Shooting Craft</h3>
+                                <p>Shooting Craft is a text-based top-down shooting game created by C and C++.
+                                    User can build and upgrade their own ship to defeat flying enemies.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-category="game">
+                        <a href="https://github.com/ChulJJA/Java_Chess_Game" target="_blank">
+                            <img src="images/chess_game.png" alt="" class="project_img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">Chess Game</h3>
+                                <p>This is a text-based Chess game completely made by Java. It communicates with text console
+                                    and users can play with the other player. Most of Chess rules are well implemented in this game. 
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-category="academic">
+                        <a href="https://github.com/ChulJJA/My_Shell" target="_blank">
+                            <img src="images/myshell.jpeg" alt="" class="project_img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">My Shell</h3>
+                                <p>Design and implemented a C programming based simple command-line shell, similar to bash or zsh. 
+                                    This program, my_sh, provides interactive and batch modes, both of which will read and interpret 
+                                    a sequence of commands. 
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="contact"></section>
+        <!-- Arrow up -->
+        <aside>
+            <a class="arrow-up" href="#home" title="back_to_top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </aside>
+    </main>
+    <!-- Footer -->
+    <footer id="contact" class="section">
+        <div class="contact__divider">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <div class="max-container">
+            <h2 class="title">Let&#39;s talk </h2>
+            <p class="description">cl1550@rutgers.edu</p>
+            <ul class="contact_links">
+                <li>
+                    <a class="contact_link" href="https://github.com/ChulJJA" title="my github">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="contact_link" href="https://www.linkedin.com/in/chulseung-lee/" title="my linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+            <p>ⓒChul - All rights reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
