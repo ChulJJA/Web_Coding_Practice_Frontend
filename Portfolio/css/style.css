@@ -310,8 +310,8 @@ button:focus {
     background-color: var(--color-accent);
 }
 
-/* Work Experience */
-#works {
+/* Projects */
+#projects {
     background-color: var(--color-primary);
     color:var(--color-text);
 }
@@ -437,7 +437,7 @@ button:focus {
 
 /* Footer */
 #contact {
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-variant);
     color: var(--color-text);
 }
 
